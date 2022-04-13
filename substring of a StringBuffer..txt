@@ -1,0 +1,7 @@
+public class SubString {
+	    public static void main(String[] args) {
+	        StringBuffer buffer = new StringBuffer("My name is Aman");
+	        String result = buffer.substring(5);
+	        System.out.println(result);
+	    }
+	}

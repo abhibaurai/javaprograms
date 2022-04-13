@@ -1,0 +1,16 @@
+public class LengthandCapacity {
+	    public static void main(String[] args) {
+	        String string = new String("Aman");
+	        StringBuffer buffer = new StringBuffer("Srivastava");
+	        StringBuilder builder = new StringBuilder("ComputerScience");
+
+	        
+	        System.out.println("Length and capacity of string is " + string.length());
+	        System.out.println();
+	        System.out.println("length of StringBuffer is = " + buffer.length());
+	        System.out.println("Capacity of StringBuffer is = " + buffer.capacity());
+	        System.out.println();
+	        System.out.println("length of StringBuilder is = " + builder.length());
+	        System.out.println("Capacity of StringBuilder is = " + builder.capacity());
+	    }
+	}

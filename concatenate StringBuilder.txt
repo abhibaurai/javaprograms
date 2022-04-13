@@ -1,0 +1,11 @@
+public class Concatenate {
+    public static void main(String[] args) {
+        StringBuilder builder = new StringBuilder("My name is");
+        StringBuffer buffer = new StringBuffer(" Aman");
+
+        String result = builder.toString().concat(buffer.toString());
+
+        System.out.println(result);
+    }
+}
+------------
